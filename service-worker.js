@@ -8,7 +8,6 @@ const ASSETS_TO_CACHE = [
     "/assets/vendor/aos/aos.js",
     "/assets/img/ds.png",
     "/assets/img/ds.png",
-    "/assets/vendor/aos/aos.cjs.js"
 ];
 
 // Install Service Worker and cache assets
