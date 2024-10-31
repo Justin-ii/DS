@@ -3,7 +3,7 @@
   "name": "Team Data Science",
   "short_name": "S1DS",
   "description": "A Data Science portal for resources and support.",
-  "start_url": "https://s1ds.vercel.app/",
+  "start_url": "/s1ds.vercel.app/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
