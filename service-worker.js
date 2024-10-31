@@ -8,16 +8,7 @@ const ASSETS_TO_CACHE = [
     "/assets/vendor/aos/aos.js",
     "/assets/img/ds.png",
     "/assets/img/ds.png",
-    "/assets/vendor/aos/aos.cjs.js",
-    "/assets/vendor/aos/aos.css",
-    "/assets/vendor/aos/aos.esm.js",
-    "/assets/vendor/aos/aos.js",
-    "/assets/vendor/aos/aos.js.map",
-    "assets/vendor/bootstrap/css/bootstrap-grid.css",
-    "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
-    "assets/vendor/bootstrap/css/bootstap-grid.min.css",
-    "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
-    
+    "/assets/vendor/aos/aos.cjs.js"
 ];
 
 // Install Service Worker and cache assets
