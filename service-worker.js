@@ -6,8 +6,9 @@ const ASSETS_TO_CACHE = [
     "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
     "/assets/js/main.js",
     "/assets/vendor/aos/aos.js",
-    "/assets/images/icon-192x192.png",
-    "/assets/images/icon-512x512.png"
+    "/assets/img/ds.png",
+    "/assets/img/ds.png",
+    "/assets/vendor/aos/aos.cjs.js"
 ];
 
 // Install Service Worker and cache assets
