@@ -170,7 +170,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Powerd By Team Data Science</span>
+            <span class="sitename">Powerd By Team Dev.DS</span>
           </a>
           <div class="footer-contact pt-3">
             <p>Chittilappilly</p>
@@ -179,8 +179,8 @@
             <p><strong>Email:</strong> <span>justinalexia@tuta.io</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href="https://github.com/Justin-io"><i class="bi bi-gitbub"></i></a>
+        
+            <a href="https://github.com/Justin-io"><i class="bi bi-github"></i></a>
             <a href="https://www.instagram.com/01.00.10.10?igsh=OGQ5ZDc2ODk2ZA=="><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/in/justinalexia/"><i class="bi bi-linkedin"></i></a>
           </div>
@@ -192,43 +192,20 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Services</a></li>
-           <!-- <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>-->
-          </ul>
-        </div>
-
-       <!-- <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>KTU Links</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">KTU OFC Telegram Group</a></li>
+            <li><a href="#">KTU Point Distribution</a></li>
             <li><a href="#">Dinera</a></li>
             <li><a href="#">Trodelas</a></li>
             <li><a href="#">Flexo</a></li>
           </ul>
-        </div>-->
+        </div>-
+        
 
       </div>
     </div>
@@ -236,7 +213,11 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Team DS</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">justin</a>
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://justinalexia.vercel.app">Justin</a> 
       </div>
     </div>
 
@@ -255,6 +236,20 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then((registration) => {
+          console.log("Service Worker registered with scope:", registration.scope);
+        })
+        .catch((error) => {
+          console.error("Service Worker registration failed:", error);
+        });
+    }
+    </script>
+    
 
 </body>
 
