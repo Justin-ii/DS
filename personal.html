@@ -626,7 +626,7 @@
 
 
               <!-- Bar Chart -->
-              <canvas id="barChart" style="max-height: 400px;"></canvas>
+              <canvas id="barChart" style="max-height: 800px;"></canvas>
               <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   new Chart(document.querySelector('#barChart'), {
@@ -634,7 +634,7 @@
                     data: {
                       labels: ['Python', 'Chemistry', 'BEE', 'Graphics', 'LifeSkill', 'Maths'],
                       datasets: [{
-                        label: 'Bar Chart',
+                        label: 'Score',
                         data: [65, 59, 80, 81, 56, 55, 40],
                         backgroundColor: [
                           'rgba(255, 99, 132, 0.2)',
