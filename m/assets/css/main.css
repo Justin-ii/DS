@@ -71,7 +71,7 @@ body {
   font-family: var(--default-font);
   background: url(/assets/images/icon-512x512.png) top center no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
 }
 
 body::before {
